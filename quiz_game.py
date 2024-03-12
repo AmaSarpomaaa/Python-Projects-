@@ -43,4 +43,4 @@ if answer.lower() == "central processing unit":
 else:
     print("Incorect!")
 
-print("You got " + str(score) + " questions coreect!")
+print("You got " + str((score / 4) * 100) + "%")
